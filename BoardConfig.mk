@@ -29,6 +29,7 @@ TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 
 # Kernel
 TARGET_KERNEL_CONFIG := gemini_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/gemini
 TARGET_KERNEL_VERSION := 4.4
 
 # Inherit from the proprietary version
